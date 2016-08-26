@@ -1,0 +1,152 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,dialog,div,dl,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,html,i,iframe,img,ins,kbd,label,legend,li,main,mark,menu,meter,nav,object,ol,output,p,pre,progress,q,rp,rt,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video,xmp{
+  border:0;margin:0;padding:0;font-size:100%
+}html,body{
+  height:100%
+  }article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{
+    display:block
+    }b,strong{
+      font-weight:bold
+      }img{
+        color:transparent;font-size:0;vertical-align:middle;-ms-interpolation-mode:bicubic
+        }ol,ul{
+          list-style:none
+          }li{
+            display:list-item
+            }table{
+              border-collapse:collapse;border-spacing:0
+              }th,td,caption{
+                font-weight:normal;vertical-align:top;text-align:left
+                }q{
+                  quotes:none
+                  }q:before,q:after{
+                    content:'';content:none
+                    }sub,sup,small{
+                      font-size:75%
+                      }sub,sup{
+                        line-height:0;position:relative;vertical-align:baseline
+                        }sub{
+                          bottom:-0.25em
+                          }sup{
+                            top:-0.5em
+                            }svg{
+                              overflow:hidden
+                            }
+
+#leaves{
+  width:100%;
+  height:500px;
+}
+
+
+
+#info{
+  background-color: rgb(42, 45, 44);
+  height:400px;
+}
+
+#learn{
+  margin-top: 10px;
+  padding:0px;
+  width: 33%;
+  padding: 10px;
+  margin-left: 32%;
+  border: 2px solid grey;
+}
+
+#products{
+  text-align: center;
+  color: black;
+}
+
+#frunze{
+  height: 170px;
+}
+
+#line{
+  padding-top:25px;
+  color: transparent;
+}
+
+#lines{
+  background-color: white;
+}
+
+#title{
+  font-size: 90px;
+  margin-top: 70px;
+}
+
+#name{
+  font-size: 30px;
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+}
+
+
+h1{
+  text-align: center;
+  color: white;
+  padding-top: 70px;
+}
+
+pre{
+  color: rgb(164, 164, 170);
+  text-align: center;
+}
+
+body{
+  padding-left: 350px;
+  padding-right: 350px;
+  padding-top: 40px;
+  background-color:rgb(50, 49, 48);
+}
+
+
+.width-100{
+  width: 100%;
+}
+
+.cactus{
+  height: 400px;
+}
+
+
+.header{
+  background-image: url('leaves.jpeg');
+  width:100%;
+  height:500px;
+}
+
+.lines{
+  height: 3px;
+  width: 30px;
+  margin: 3px 0;
+  margin-left: 25px;
+}
+
+.float-left{
+  float:left;
+}
+
+.float-right{
+  float:right;
+}
+
+.clear{
+  clear: both;
+}
+
+.width-50{
+  width: 50%;
+}
+
+.background-color{
+  background-color: white;
+}
+
+@media (max-width: 1402px){
+  .width-50{
+    width:100%;
+  }
+}

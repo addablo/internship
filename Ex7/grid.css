@@ -1,0 +1,55 @@
+
+*, *:after, *:before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height:100%;
+  display:flex;
+  flex-direction: column;
+}
+
+
+.header.flex1 {
+  display:flex;
+  justify-content: space-between;
+  padding: 2vw 2vw 2vw 2vw;
+  border:1px solid #CCC;
+  border-left:none;
+  border-right:none;
+}
+.container.flex2{
+  display:flex;
+  height: 70%;
+  line-height: 2;
+}
+
+.menu.flex3 {
+  display:flex;
+  flex-direction: column;
+  padding: 0 5vw 5vw 5vw;
+  max-width:27%;
+  border:1px solid #CCC;
+
+}
+
+.content{
+
+  overflow: auto;
+  padding:5vw;
+  border:1px solid #CCC;
+  border-right: none;
+}
+
+ul {
+   list-style: none;
+   margin: 0;
+   padding: 5px 0;
+}
+
+.footer-content{
+    padding:5vw;
+
+}

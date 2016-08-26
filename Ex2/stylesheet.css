@@ -1,0 +1,164 @@
+.floatRight{
+  float:right;
+}
+
+.floatLeft{
+  float:left;
+}
+
+.nav-bar-elements{
+  margin-right: 30px;
+  margin-top: 50px;
+  display: block;
+  color: black;
+  text-align: center;
+  font-family:sans-serif;
+  text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.nav-bar-name{
+  margin : 50px;
+  color : brown;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family:sans-serif;
+}
+
+.watch{
+  height: 500px;
+  width: 500px;
+  text-align:left;
+}
+
+.text{
+  font-size: 15px;
+  letter-spacing: 100%;
+  font-family:'Source Sans Pro', sans-serif;
+}
+
+.add-button{
+  color:white;
+  font-size:20px;
+  background-color: black;
+  height:60px;
+  width:250px;
+  border-radius: 10px;
+}
+.clear{
+  clear:both;
+}
+
+#title-text{
+  font-weight: normal;
+}
+
+.overflow{
+  overflow: hidden;
+}
+
+.margin-right{
+  margin-right: 50px;
+}
+
+.number{
+  padding: 5px;
+  border-color: grey;
+  border-style: ridge;
+  display:inline;
+  color: green;
+}
+
+.flag{
+  height: 20px;
+  width: 20px;
+  display: inline;
+  float: left;
+}
+
+.lines{
+  height: 5px;
+  width: 30px;
+  background-color: grey;
+}
+
+#line{
+    margin: 6px 0;
+}
+
+.margin-top-image{
+  margin-top: 120px;
+}
+
+#description{
+  overflow: hidden;
+  margin-left: 40px;
+  text-align:left;
+}
+
+#rose{
+  overflow: hidden;
+  padding-left: 20px;
+  text-align: left;
+  padding-top: 5px;
+  color: #FFC0CB;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.padding{
+  border-top: 100px solid grey;
+  border-bottom: 100px solid grey;
+  border-left: 50px solid grey;
+  border-right: 50px solid grey;
+}
+.buttonSelector{
+  height: 50px;
+  width: 100%;
+}
+.margin-top{
+  margin-top: 0px;
+}
+
+.margin-bottom{
+  margin-bottom: 0px;
+}
+
+.itemDescription{
+  height: 50px;
+  width: 100%;
+}
+
+.width{
+  width: 75%;
+}
+
+#price{
+  width: 25%;
+  display: inline;
+  border-radius: 10px;
+  border: 2px solid grey;
+  color: green;
+  padding: 5px 10px 5px 10px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.display-inline{
+    display: inline;
+}
+.description-height{
+  height: 500px;
+}

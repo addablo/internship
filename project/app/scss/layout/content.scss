@@ -1,0 +1,81 @@
+#hover-button {
+    top: 30%;
+    left: 50%;
+    position: relative;
+    background-color: rgb(44, 193, 152);
+    border: 1px solid #ccc;
+    border-style: groove;
+    color: white;
+}
+#hover-button:hover {
+    background-color: rgb(18, 170, 173);
+}
+#map {
+    height: 100%;
+    width: 100%;
+    min-width: 50%;
+}
+.clear {
+    clear: both;
+    padding: 50px;
+}
+
+.flex-column-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flex-row-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.padding-50 {
+    padding-top: 50px;
+}
+.sponsors {
+    background-color: rgba(149, 149, 149, 0.46);
+    height: 130px;
+    min-width: 50%;
+}
+.sponsors > p:not(:first-child) {
+    padding-left: 12vw;
+}
+.sponsors > p:first-child {
+    margin-left: 5vw;
+}
+.sponsors > p {
+    padding-right: 5vw;
+    color: rgba(73, 73, 73, 0.75);
+    font-size: 18px;
+}
+.hover {
+    height: auto;
+    background-color: rgb(44, 193, 152);
+    align-items: center;
+}
+.hover-content {
+    height: auto;
+    text-align: center;
+    padding: 2em;
+    min-width: 500px;
+}
+.button {
+    min-width: 50%;
+    height: 5%;
+}
+
+.hover-content > p {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.chat-bubble {
+    padding: 4vw 5vw 2vw;
+    overflow: auto;
+}
+.mapDiv {
+    height: 300px;
+    width: 100%;
+    padding: 0 10vw;
+}

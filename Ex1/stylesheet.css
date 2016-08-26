@@ -1,0 +1,197 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.content {
+width:794px; height:1122px;
+margin-left:auto;
+margin-right:auto;
+}
+
+
+
+p {
+  font-size: 16px!important;
+  font-family: consolas;
+  color: rgb(152, 152, 152);
+}
+
+.customerName {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#m-icon {
+ width: 50px;
+ height: 50px;
+ background-color: black;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-self:center;
+}
+
+#m {
+ align-self: center;
+ font-size: 20px;
+}
+
+#sender {
+ display: flex;
+}
+
+#sender-info {
+ line-height: 50%;
+ margin-left: auto;
+ text-align: right;
+ color: rgb(152, 152, 152);
+}
+
+#sender-name{
+  color: black;
+}
+
+
+
+.details {
+ display:flex;
+ line-height: 50%;
+ margin-left: auto;
+ text-align:left;
+ color: rgb(152, 152, 152);
+}
+
+#invoice {
+  line-height: 50%;
+  margin-left:auto;
+  text-align:right;
+  }
+
+#recipient-name{
+  color: black;
+
+}
+
+.invoice-content{
+  color:black;
+  padding-bottom: 10px;
+}
+
+.table{
+  width: 100%;
+  display:table;
+  text-align:justify;
+  letter-spacing: 100%;
+  padding-top: 20px;
+}
+
+.table-container{
+  display: table-cell;
+
+  font-weight: bold;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#invoice-date{
+  text-align: left;
+  padding-right: 10px;
+}
+
+#content{
+  text-align: left;
+}
+
+#rate{
+  text-align: center;
+  margin-right: auto;
+}
+
+#hours{
+  text-align: center;
+  margin-left: auto;
+}
+
+#amount{
+  text-align:right;
+  padding-left:10px;
+}
+
+#data{
+  font-weight: normal;
+}
+
+#data2{
+  font-weight: normal;
+  text-align: center;
+}
+
+.table-container:not(:first-child){
+  border-bottom: 1px solid rgb(152, 152, 152);
+  padding-bottom: 40px;
+
+}
+
+.total{
+  line-height: 50%;
+  margin-right: auto;
+  float: right;
+  width:50%;
+
+}
+
+#subtotal{
+  width:50%;
+  float:left;
+  margin-left:auto;
+  padding-left: 100px;
+  text-align: left;
+  display:block;
+}
+#fee{
+  float:right;
+}
+#fee-data:not(:last-child){
+  color: black;
+  text-align: center;
+}
+#fee-data2:not(:last-child){
+  text-align: right;
+}
+#fee-data:last-child{
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  padding-top:20px;
+}
+#fee-data2:last-child{
+  color: black;
+  text-align: center;
+  padding-top:20px;
+}
+.notes{
+  width:100%;
+  clear: both;
+}
+.footer{
+  display: flex;
+    line-height: 50%;
+    margin-left: auto;
+    text-align: left;
+    border-top: 1px solid rgb(152, 152, 152);
+    color:rgb(152, 152, 152);
+
+}
+
+@media print{
+  *{
+    font-size: 10px;
+
+  }
+  .content{
+    height: 1000px;
+  }
+}

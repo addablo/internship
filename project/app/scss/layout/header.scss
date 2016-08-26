@@ -1,0 +1,111 @@
+#pinwall {
+    text-align: center;
+    margin-top: 0;
+    font-size: 1.5em;
+}
+#hammer {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 70px;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-top: 0 solid;
+    border-bottom: 40px solid white;
+}
+#diamond {
+    width: 0;
+    height: 0;
+    border: 40px solid transparent;
+    border-bottom: 60px solid white;
+    position: relative;
+    top: -40px;
+}
+#diamond:after {
+    content: '';
+    position: absolute;
+    left: -40px;
+    top: 60px;
+    width: 0;
+    height: 0;
+    border: 40px solid transparent;
+    border-top: 60px solid white;
+}
+.icons {
+    background-color: rgb(44, 193, 152);
+    height: 380px;
+    display: flex;
+    justify-content: space-around;
+}
+.flag {
+    padding-top: 10px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 0;
+    height: 300px;
+    border: 100px solid white;
+    border-top: 0 solid;
+    border-bottom: 35px solid transparent;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tear {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 90px;
+    height: 90px;
+    border: none;
+    -webkit-border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+    border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+    background: white;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+}
+.line {
+    width: 200px;
+    height: 2px;
+    background-color: gray;
+}
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.list > li {
+    padding-top: 20px;
+}
+li::after {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid black;
+}
+.right-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 60vw;
+}
+.menu-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.hammer-div {
+  width: 12px;
+  height: 70px;
+  background-color: white;
+}
+
+.text-icon {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 0.9em;
+}

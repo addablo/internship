@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register form</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+
+<body>
+    <div class="body">
+        <div class="container flex1 photo-content">
+            <div class="logo img">
+                <img src="book.jpg" alt="" />
+                <p>
+                    Minions Form
+                </p>
+            </div>
+            <div class="content margin flex2">
+                <div class="field margin">
+                    <img class="height img2" src="user-icon.jpg" alt="" />
+                    <input class="height width inputbox" type="text" placeholder="Username" />
+                </div>
+                <div class="field margin">
+                    <img class="height img2" src="email-icon.png" alt="" />
+                    <input class=" height width inputbox" type="text" placeholder="Email" />
+                </div>
+                <div class="field margin">
+                    <img class="height img2" src="lock.png" alt="" />
+                    <input class=" height width inputbox" type="text" placeholder="Password" />
+                </div>
+                <div class="field margin">
+                    <img class="height img2" src="lock.png" alt="" />
+                    <input class=" height width inputbox" type="text" placeholder="Re-type Password" />
+                </div>
+            </div>
+            <div class="button">
+                <button class="myBtn">REGISTER NOW</button>
+            </div>
+            <div class=" login margin">
+                <p class="margin">
+                    Already have an account? <span style="color:skyblue">Login</span>
+                </p>
+            </div>
+            <div class="photo margin">
+                <input type="file" name="file" id="files" class="inputfile" />
+                <label for="files">Choose a file</label>
+                <div class="relative">
+                    <img id="image" />
+                    <div class="buttons absolute">
+                        <div class="width absolute button-margin-left">
+                            <button id="edit" type="button" name="button">Edit</button>
+                        </div>
+                        <div class="width absolute">
+                            <button id="delete" type="button" name="button">Delete</button>
+                        </div>
+                    </div>
+                </div>
+                <br class="clear" />
+            </div>
+            <div id="dropdown" class="clear">
+                <ul>
+                    <li>
+                        Orase
+                        <ul>
+                            <li>Cluj</li>
+                            <li>Timisoara</li>
+                            <li>Baia Mare</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        Capitale
+                        <ul>
+                            <li>Beijing</li>
+                            <li>Tokyo</li>
+                            <li>Sydney</li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="upload.js"></script>
+</body>
+
+</html>
