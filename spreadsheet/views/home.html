@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <script src="/javascripts/jQ.js" charset="utf-8"></script>
+
+
+    <title>
+        Excel Spreadsheet
+    </title>
+</head>
+
+<body>
+    <div class="user-tools">
+        <div class="input-button-group">
+            <input type="text" id="query" placeholder="Type to search" class="form-control" />
+            <input type="button" value="SCHIMBĂ ORDINEA" id="sortBtn" />
+            <div class="input-button-group">
+                <input id="add-input" type="text" placeholder="Add a new entry" class="form-control" />
+                <button id="add" class="btn addBtn">Add</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="length" class="entries-number"></div>
+    <ul id="log" class="list-group list"></ul>
+
+    <script src="/javascripts/sort.js" charset="utf-8"></script>
+    <script src="/javascripts/filter.js" charset="utf-8"></script>
+</body>
+
+</html>

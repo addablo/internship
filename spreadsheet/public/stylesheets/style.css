@@ -1,0 +1,42 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+  body a {
+    color: #00B7FF;
+    text-decoration: none;
+    cursor: pointer; }
+li:hover {
+  text-decoration:line-through;
+}
+#log{
+  height:auto;
+}
+#log div:hover{
+  text-decoration: underline;
+}
+.list {
+  list-style-type: none;
+  padding:0 40px;
+  margin: 0 auto;
+}
+
+.user-tools {
+  padding: 20px;
+}
+.input-button-group {
+  padding: 5px;
+  display: inline-block;
+}
+.entries-number {
+  padding: 0 0 20px 20px;
+}
+.form-control {
+  display: inline-block;
+  width: inherit;
+}
+.glyphicon {
+  margin: 0 10px;
+}
+.list-text {
+  display: inline-block;
+}
